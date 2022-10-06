@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+	    <title>loading动画</title>
+        <style>           
+            .loading{
+                width: 200px;
+                height: 200px;
+                border-bottom:50px solid #999;
+                border-left:50px solid;
+                border-top:50px solid;
+                border-right:50px solid #999;
+                border-left-color:rgba(3,155,229 ,1);
+                border-top-color:rgba(3,155,229 ,1);
+                border-radius:50%;
+                animation: rotate 500ms infinite linear;
+                animation: rotate 500ms infinite linear;
+            }
+
+            @keyframes rotate{
+                from{
+                    transform: rotate(0)
+                }
+                to{
+                    transform: rotate(360deg)
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="loading">
+        </div>
+    </body>
+</html>
